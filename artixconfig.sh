@@ -18,12 +18,12 @@ makepkg -si --noconfirm
 echo "Finished YAY Install"
 
 ### Pacman Packages
-sudo pacman -S  bspwm sxhkd rofi dunst sddm-runit xfce4-power-manager xfce4-settings firefox thunar thunar-archive-plugin gvfs-mtp ranger w3m ffmpegthumbnailer feh neofetch pulseaudio pulseaudio-alsa pavucontrol polkit-gnome mousepad vim htop wget iwd-runit wireless_tools wpa_supplicant-runit xdg-utils xdg-user-dirs xf86-input-wacom noto-fonts noto-fonts-cjk
+sudo pacman -S  bspwm sxhkd rofi dunst sddm-runit xfce4-power-manager xfce4-settings firefox thunar thunar-archive-plugin gvfs-mtp ranger w3m ffmpegthumbnailer feh neofetch pulseaudio pulseaudio-alsa pavucontrol polkit-gnome mousepad vim htop wget iwd-runit wireless_tools wpa_supplicant-runit xdg-utils xdg-user-dirs xf86-input-wacom noto-fonts noto-fonts-cjk --noconfirm
 
 echo "Finished Installing Pacman Packages"
 
 ### AUR Packages
-yay -S  picom-jonaburg-git polybar playerctl-git zscroll-git kitty-git udevil-git flameshot-git starship-git pywal-git zathura-git zathura-pdf-poppler-git rofi-dmenu networkmanager-dmenu-git i3lock-color xidlehook matrix-mirage themix-full-git bibata-cursor-theme nerd-fonts-hack nerd-fonts-jetbrains-mono
+yay -S  picom-jonaburg-git polybar playerctl-git zscroll-git kitty-git udevil-git flameshot-git starship-git pywal-git zathura-git zathura-pdf-poppler-git rofi-dmenu networkmanager-dmenu-git i3lock-color xidlehook matrix-mirage themix-full-git bibata-cursor-theme nerd-fonts-hack nerd-fonts-jetbrains-mono --noconfirm
 
 echo "Finished Installing AUR Packages"
 
