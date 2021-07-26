@@ -23,7 +23,7 @@ sudo pacman -S bspwm sxhkd playerctl rofi dunst xorg sddm-runit xfce4-power-mana
 echo "Finished Installing Pacman Packages"
 
 ### AUR Packages
-yay -S picom-jonaburg-git polybar zscroll-git rofi-dmenu networkmanager-dmenu-git i3lock-color xidlehook matrix-mirage themix-full-git bibata-cursor-theme nerd-fonts-hack nerd-fonts-jetbrains-mono --noconfirm
+yay -S picom-jonaburg-git polybar zscroll-git rofi-dmenu networkmanager-dmenu-git i3lock-color xidlehook themix-full-git bibata-cursor-theme nerd-fonts-hack nerd-fonts-jetbrains-mono --noconfirm
 
 echo "Finished Installing AUR Packages"
 
