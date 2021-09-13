@@ -18,7 +18,7 @@ makepkg -si --noconfirm
 echo "Finished YAY Install"
 
 ### Pacman Packages
-sudo pacman -S bspwm sxhkd playerctl rofi dunst xorg sddm-runit xfce4-power-manager xfce4-settings firefox kitty thunar thunar-archive-plugin gvfs-mtp udevil ranger w3m ffmpegthumbnailer flameshot starship python-pywal feh zathura zathura-pdf-poppler neofetch pulseaudio pulseaudio-alsa pavucontrol polkit-gnome lxappearance-gtk3 mousepad neovim htop wget iwd-runit wireless_tools wpa_supplicant-runit xdg-utils xdg-user-dirs xf86-input-wacom noto-fonts noto-fonts-cjk --noconfirm
+sudo pacman -S bspwm sxhkd playerctl rofi dunst xorg sddm-runit xfce4-power-manager xfce4-settings firefox kitty thunar thunar-archive-plugin gvfs-mtp udevil ranger w3m ffmpegthumbnailer tumbler flameshot starship python-pywal feh zathura zathura-pdf-poppler neofetch pulseaudio pulseaudio-alsa pavucontrol polkit-gnome lxappearance-gtk3 mousepad neovim htop wget iwd-runit wireless_tools wpa_supplicant-runit xdg-utils xdg-user-dirs xf86-input-wacom noto-fonts noto-fonts-cjk --noconfirm
 
 echo "Finished Installing Pacman Packages"
 
